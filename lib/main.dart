@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.headline4,
             ),
             RaisedButton(
-              child: Text("打开页面一"),
+              child: Text("打开页面1"),
               textColor: Colors.blue,
               onPressed: () async {
                 var result = await Navigator.of(context)
