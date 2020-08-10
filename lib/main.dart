@@ -75,8 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: new Text(widget.title),
       ),
       body: new Center(
-        child: new Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+        child: new Wrap(
           children: <Widget>[
             new Text(
               'You have pushed the button this many times:',
